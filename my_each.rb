@@ -1,3 +1,10 @@
-def my_each # put argument(s) here
+def my_each(collection) 
+  i = 0
+  while i < collection.length
+    yield(collection[i]) 
+    i = i + 1
+    
+  end # put argument(s) here
+collection
   # code here
 end
